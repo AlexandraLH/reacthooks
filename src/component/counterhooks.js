@@ -15,7 +15,7 @@ function Counter() {
         -1
       </button>
 
-      < input type="text" placeholder="Entrez valeur de départ" onChange={(e) => setCount(e.target.value)}></input>
+      < input  placeholder="Entrez valeur de départ" onChange={(e) => setCount(parseInt(e.target.value))}></input>
     </div>
   );
 }
